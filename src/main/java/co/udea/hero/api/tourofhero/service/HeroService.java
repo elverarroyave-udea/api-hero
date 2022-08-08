@@ -15,7 +15,7 @@ public interface HeroService {
 
     Hero addHero(Hero heroToCreated);
 
-    Hero update(int id, HeroRequestDTO heroToUpdate);
+    Hero update(Hero heroToUpdate);
 
     void deleteById(int id);
 }
